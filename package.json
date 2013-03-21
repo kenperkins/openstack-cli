@@ -1,0 +1,26 @@
+{
+    "name": "openstack-cli",
+    "description": "Working package for Openstack node.js CLI",
+    "version":"0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kenperkins/openstack-cli.git"
+    },
+    "dependencies": {
+        "openstack": "0.0.x",
+        "commander": "1.1.x",
+        "pkginfo": "0.3.x"
+    },
+    "devDependencies": {
+        "nock": "0.16.x",
+        "mocha": "1.8.x",
+        "should": "1.2.x"
+    },
+    "bin": {
+        "oscli": "./lib/openstack-cli.js"
+    },
+    "scripts": {
+        "test": "make test"
+    }
+}
+
